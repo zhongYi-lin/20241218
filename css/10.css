@@ -1,0 +1,153 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6b6b6;
+    color: #224e58;
+}
+
+header {
+    background-color: #dbd0ad;
+    color: #224e58;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-top: 2px solid #ddd;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5a5a5a;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #171666;
+    background-color: #ddd;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* 分區塊的顏色設定 */
+section.about-me {
+    background-color: #e7d6bc; 
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+section#portfolio {
+    background-color: #e7d6bc; 
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+section#resume {
+    background-color: #c9eecc; 
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+section#contact {
+    background-color: #bb9dbe; 
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.portfolio-item {
+    margin: 20px auto;
+    padding: 15px;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 50%;
+    max-width: 800px;
+    text-align: left;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.portfolio-item h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.portfolio-item p {
+    font-size: 14px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact input, #contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding: 10px;
+}

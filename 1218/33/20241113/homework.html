@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>響應式網頁作業</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header,
+        footer {
+            height: 200px;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px;
+        }
+
+        .box {
+            width: 30%;
+            height: 300px;
+            border: 1px solid black;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media screen and (max-width:640px) {
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+
+            .box {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+
+        @media screen and (min-width:641px) and (max-width:980px) {
+            body {
+                background-color: rgb(243, 191, 250);
+            }
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+            .box {
+                width: 40%;
+                margin-bottom: 5px;
+            }
+        }
+
+        @media screen and (min-width:981px) {
+            body {
+                background-color: rgb(164, 164, 238);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>響應式網頁設計</h1>
+    </header>
+    <main>
+        <section class="row">
+            <div class="box">區塊一</div>
+            <div class="box">區塊二</div>
+            <div class="box">區塊三</div>
+        </section>
+        <footer>
+            響應式網頁頁尾
+        </footer>
+    </main>
+</body>
+
+</html>

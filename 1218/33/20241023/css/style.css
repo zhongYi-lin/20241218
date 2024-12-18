@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.article {
+  width: 960px;
+  margin: 40px auto;
+  height: 400px;
+  padding: 40px;
+  font: 24px "Arial";
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  line-height: 28px;
+}
+
+.section1 {
+  color: white;
+  background-image: url(../img/煙火.JPG);
+  background-size: 1000px;
+  text-shadow: 5px 4px 5px #f3ecec;
+  font-weight: bold;
+}
+
+.section2 {
+  color: white;
+  background-image: url(../img/太陽.JPG);
+  background-size: 1000px;
+  font-weight: bold;
+  text-shadow: 5px 4px 5px #575353;
+}
+
+.section3 {
+  color: white;
+  background-image: url(../img/夕陽.JPG);
+  background-size: 1000px;
+  text-shadow: 5px 4px 5px #575353;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

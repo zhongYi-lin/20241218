@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation 01</title>
+    <style>
+        .sunset {
+            width: 200px;
+            height: 200px;
+            background-image: url(../20241030/img/日落.jpg);
+            background-size: cover;
+            animation: move 2s infinite;
+        }
+
+        @keyframes move{
+            0%{
+                transform: translate(0px);
+            }
+
+            50%{
+                transform: translate(500px);
+                background-image: url(../20241030/img/星星.jpg);
+            }
+
+            100%{
+                transform: translate(0px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="sunset"></div>
+    </div>
+</body>
+
+</html>
