@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10的個人網站</title>
+    <link rel="stylesheet" href="./css/10.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>歡迎來到我的個人網站</h1>
+        <p>我是 鐘依琳</p>
+        <img src="./img/10個人照.jpg" alt="大學生照片" data-aos="flip-left"  class="profile-pic">
+    </header>
+
+    <main>
+        <nav>
+            <ul>
+                <li><a href="./index.html">首頁</a></li>
+                <li><a href="./detail.html">景點詳細介紹</a></li>
+                <li><a href="./33me.html">關於33</a></li>
+                <li><a href="./10.html">關於10</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li><a href="#portfolio">作品集</a></li>
+                <li><a href="#resume">履歷</a></li>
+                <li><a href="#contact">聯絡我</a></li>
+            </ul>
+        </nav>
+
+        <section class="about-me">
+            <h2>關於我</h2>
+            <p>我是 鐘依琳，專注於[排版美化]、喜愛[游泳/跳舞]。</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>作品集</h2>
+            <div class="portfolio-item">
+                <img src="./img/20241120carouse.png" alt="專案圖片"width="450px">
+                <h3>Bootstrap 5輪播</h3>
+                <p>循環播放式的幻燈片，在每個投影片上建立標題</p>
+                <a href="./1218/10/20241120/carousel.html"><button>點看看</button></a>
+            </div>
+            <div class="portfolio-item">
+                <img src="./img/animation_css.png" alt="專案圖片"width="450px">
+                <h3>CSS動畫</h3>
+                <p>讓圖片翻滾並在正方形內循環</p>
+                <a href="./1218/10/20241030/animation_css_03.html"><button>點看看</button></a>
+
+            </div>
+            <div class="portfolio-item">
+                <img src="./img/AOS.png" alt="專案圖片"width="450px">
+                <h3>AOS動畫</h3>
+                <p>當網頁滑動或是打開時圖片或是文字可以套入AOS動畫，讓網頁更生動</p>
+                <a href="./1218/10/20241030/AOS.html"><button>點看看</button></a>
+            </div>
+            <div class="portfolio-item">
+                <img src="./img/滾動視差.png" alt="專案圖片"width="450px">
+                <h3>滾動視差</h3>
+                <p>讓網頁在滑動時給人感覺有視差</p>
+                <a href="./1218/10/20241023/index.html"><button>點看看</button></a>
+            </div>
+            <!-- 更多專案 -->
+        </section>
+
+        <section id="resume">
+            <h2>我的履歷</h2>
+            <h3>學歷</h3>
+            <ul>
+                <li><a href="https://www.kfps.tp.edu.tw/nss/p/index">光復國小</a></li>
+                <li><a href="https://www.gfhs.ntpc.edu.tw/">光復國中</a></li>
+                <li><a href="https://www.ckvs.ntpc.edu.tw/home">智光商工</a></li>
+            </ul>
+            <h3>工作經驗</h3>
+            <ul>
+                <li>7-11兼工 (4年多)</li>
+            </ul>
+            <h3>技能</h3>
+                 HTML, CSS
+                Photoshop, Illustrator
+
+        </section>
+
+        <section id="contact">
+            <h2>聯絡我</h2>
+            <form action="submit-form.php" method="post">
+                <input type="email" name="email" placeholder="您的電子郵件" required>
+                <textarea name="message" placeholder="您的訊息" required></textarea>
+                <button type="submit">發送訊息</button>
+            </form>
+            <ul>
+                <li>Email:<a href="mailo:112111120@mail.eaust.edu.tw">112111120@mail.eaust.edu.tw</a></li>
+                <li>FB:<a href="https://www.facebook.com/mi.ni.1293">Yilin Zhong</a></li>
+                <li>IG:<a href="https://www.instagram.com/zyl_0724/">zyl_0724</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;資管管理2A鐘依琳</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>沙丘日落</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe8c5;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffe8c5;
+            text-align: left;
+            display: flex;
+            justify-content: center;
+            height: 130px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #ffe8c5;
+            padding: 40px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2rem;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #ebbe7c;
+            color: #fff;
+        }
+
+        .fixed-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px;
+            text-align: center;
+            z-index: 1000;
+        }
+        
+        main {
+            padding: 40px;
+            margin-top: 150px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background-color: #ececec;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            max-height: 200px;
+            object-fit: cover;
+        }
+
+        .card h2 {
+            margin: 15px 0;
+            font-size: 1.2rem;
+            color: #444;
+        }
+
+        .card button {
+            background-color: #cc8878;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .card button:hover {
+            background-color: #aa6655;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="fixed-header">
+        <a href="./index.html"><img src="./img/浪花日暮-removebg-preview.png" alt="" height="150px" width="150px"></a>
+        <nav>
+            <ul>
+                <li><a href="./index.html">首頁</a></li>
+                <li><a href="./detail.html">景點詳細介紹</a></li>
+                <li><a href="./33me.html">關於33</a></li>
+                <li><a href="./10.html">關於10</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="grid-container">
+            <div class="card">
+                <img src="./img/桃園-觀音草漯沙丘.jpg" alt="桃園-觀音草漯沙丘">
+                <h2>桃園-觀音草漯沙丘</h2>
+                <p>觀音草漯沙丘是當地一處大規模的濱海地形，由盛行的季風與漂沙堆積形成，層巒疊嶂的沙丘全長 8.1 公里，規模盛大，最高的沙丘甚至可達 3 層樓（20m）高，又被稱為「台版撒哈拉」，與落日餘暉相稱根本就像在火星上才有的美景，也曾經是電影《不能說的秘密》與台劇《波麗士大人》的取景地。</p>
+                <a href="https://www.google.com/maps/place/%E8%A7%80%E9%9F%B3%E8%8D%89%E6%BC%AF%E6%B2%99%E4%B8%98+-+%E6%95%B8%E6%9E%97%E5%AD%90%E6%B5%B7%E6%BF%B1%E6%AE%B5/@25.0735925,121.1238991,17z/data=!3m1!4b1!4m6!3m5!1s0x34682764dc83056f:0xd443b9ebe7543dae!8m2!3d25.0735925!4d121.126474!16s%2Fg%2F11cp7lypdd?entry=ttu&g_ep=EgoyMDI0MTIwMy4wIKXMDSoASAFQAw%3D%3D"><button>想去嗎 Let’s go！！</button></a>
+            </div>
+            <div class="card">
+                <img src="./img/嶺頂沙丘.jpg" alt="嶺頂沙丘">
+                <h2>嶺頂沙丘</h2>
+                <p>是海岸山脈的起點，也是花蓮溪的終點。在這個山海河的交界，豐富的魚蝦吸引候鳥度冬棲息，但美麗的海景也吸引開發的腳步進駐。嶺頂沙丘屬於花蓮溪口的重要濕地，是海岸山脈的起點也是歐亞大陸板塊和菲律賓板塊的交會點，在藍天白雲的對應下，這裡成了一個很夢幻的景點。除此之外這裡更是花蓮觀賞日出的最佳景點，嶺頂沙丘不僅僅是秘境，更是一個可以帶小朋友一起來踏浪的好去處，可以趁著放假的時候帶小朋友出來走走。</p>
+                <a href="https://www.google.com/maps/place/%E5%B6%BA%E9%A0%82%E6%B2%99%E4%B8%98/@23.9368668,121.6074867,17z/data=!3m1!4b1!4m6!3m5!1s0x3468a01414adef9f:0x9d387a1a96ede7!8m2!3d23.9368668!4d121.6100616!16s%2Fg%2F11bbrkg0hq?entry=ttu&g_ep=EgoyMDI0MTIwMy4wIKXMDSoASAFQAw%3D%3D"><button>想去嗎 Let’s go！！</button></a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

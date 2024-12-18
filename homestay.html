@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>民宿的日落</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe8c5;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffe8c5;
+            text-align: left;
+            display: flex;
+            justify-content: center;
+            height: 130px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #ffe8c5;
+            padding: 40px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2rem;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #ebbe7c;
+            color: #fff;
+        }
+        .fixed-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        main {
+            padding: 40px;
+            margin-top: 150px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background-color: #ececec;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            max-height: 200px;
+            object-fit: cover;
+        }
+
+        .card h2 {
+            margin: 15px 0;
+            font-size: 1.2rem;
+            color: #444;
+        }
+
+        .card button {
+            background-color: #cc8878;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .card button:hover {
+            background-color: #aa6655;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="fixed-header">
+        <a href="./index.html"><img src="./img/浪花日暮-removebg-preview.png" alt="" height="150px" width="150px"></a>
+        <nav>
+            <ul>
+                <li><a href="./index.html">首頁</a></li>
+                <li><a href="./detail.html">景點詳細介紹</a></li>
+                <li><a href="./33me.html">關於33</a></li>
+                <li><a href="./10.html">關於10</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="grid-container">
+            <div class="card">
+                <img src="./img/那。故事 水岸莊園.jpg" alt="民宿日落" height="450px" width="750px">
+                <h2>那。故事 水岸莊園</h2>
+                <p>民宿座落在馬公本島南方寧靜海灘旁，距離機場只需九分鐘的路程，憑藉著壯麗的海景與浪漫的情調，成為澎湖最夯的民宿之一。房型十分多元，不論是坐擁私人陽台水池的海景水池雙人房，或是能獨覽無際星空的海景雙人房都有，但價位相對來說偏高<br><br></p>
+                <a href="https://www.google.com.tw/maps/place/%E9%82%A3%E3%80%82%E6%95%85%E4%BA%8B%E6%B0%B4%E5%B2%B8%E8%8E%8A%E5%9C%92%E6%B0%91%E5%AE%BF/@23.516699,119.5720846,17z/data=!4m9!3m8!1s0x346c50417de74cf1:0xea66684f03f5ba97!5m2!4m1!1i2!8m2!3d23.5166941!4d119.5746595!16s%2Fg%2F11c1qbskgc?hl=zh-TW&entry=ttu&g_ep=EgoyMDI0MTIwMS4xIKXMDSoASAFQAw%3D%3D"><button>想去嗎 Let’s go！！</button></a>
+            </div>
+            <div class="card">
+                <img src="./img/墾丁海境渡假民宿.jpg" alt="沙丘日落" height="450px" width="750px">
+                <h2>墾丁海境渡假民宿</h2>
+                <p>墾丁海洋天堂度假村坐落於山海，享有海景，提供餐廳和行李寄存處。住宿設有空調和浴缸。房間配有露台、平面電視以及附熱水浴池的私人衛浴。每間客房均設有海景陽台。客人可以在早餐區享用美式早餐。這間家庭式住宿提供露臺。墾丁海洋樂園距離墾丁10公里。高雄國際機場距離酒店有75公里。</p>
+                <a href="https://www.google.com.tw/maps/place/%E6%B5%B7%E5%A2%83%E6%B8%A1%E5%81%87%E6%B0%91%E5%AE%BF/@21.9866793,120.7127662,17z/data=!4m9!3m8!1s0x3471b09c99bb9269:0x41584d4271fbdf0e!5m2!4m1!1i2!8m2!3d21.9866743!4d120.7153411!16s%2Fg%2F1td7l16z?hl=zh-TW&entry=ttu&g_ep=EgoyMDI0MTIwMS4xIKXMDSoASAFQAw%3D%3D"><button>想去嗎 Let’s go！！</button></a>
+            </div>
+            <div class="card">
+                <img src="./img/若茵民宿 – Rollin.jpg" alt="海邊日落">
+                <h2>若茵民宿 – Rollin</h2>
+                <p>曾獲選私房秘境第一名的「若茵民宿」，需要走一小段路穿過森林才能到達，擁有寬敞的室外賞景區，設置舒適的沙發躺椅、木質桌椅等，可以舒服地躺著欣賞無敵美景，放眼眺望無邊天際和層層堆疊山峰的壯闊景色。清晨陽光灑下或夕陽餘暉渲染雲海，也許還能看見浪漫的琉璃光，絕無冷場的美景，宛若身在仙境</p>
+                <a href="https://www.google.com.tw/maps/place/%E8%8B%A5%E8%8C%B5%E6%B0%91%E5%AE%BF/@24.2499607,120.8978721,17z/data=!4m10!3m9!1s0x34691d9b05b78e63:0x1c76f1bead39edde!5m3!1s2024-12-05!4m1!1i2!8m2!3d24.2499558!4d120.900447!16s%2Fg%2F12m8_326b?hl=zh-TW&entry=ttu&g_ep=EgoyMDI0MTIwMS4xIKXMDSoASAFQAw%3D%3D"><button>想去嗎 Let’s go！！</button></a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浪花日暮-觀夕網站</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe8c5;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffe8c5;
+            text-align: left;
+            display: flex;
+            justify-content: center;
+            height: 130px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #ffe8c5;
+            padding: 40px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2rem;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #ebbe7c;
+            color: #fff;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin-top: 200px;
+            padding: 20px;
+        }
+
+        section {
+            margin: 20px 0;
+            text-align: center;
+            max-width: 800px;
+
+        }
+
+        section img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+        }
+
+        section h2 {
+            margin-top: 15px;
+            font-size: 1.5rem;
+            color: #444;
+        }
+
+        .fixed-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px;
+            text-align: center;
+            z-index: 1000;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="fixed-header">
+        <a href="./index.html"><img src="./img/浪花日暮-removebg-preview.png" alt="" height="150px" width="150px"></a>
+        <nav>
+            <ul>
+                <li><a href="./index.html">首頁</a></li>
+                <li><a href="./detail.html">景點詳細介紹</a></li>
+                <li><a href="./33me.html">關於33</a></li>
+                <li><a href="./10.html">關於10</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="dune" data-aos="fade-up" data-aos-offset="200" data-aos-dalay="50" data-aos-duration="1000"
+            data-aos-anchor-placement="top-center">
+            <a href="./dune.html"><img src="./img/沙丘日落導覽圖.jpg" alt="沙丘的日落" data-aos="zoom-in-down"></a>
+            <h2>關於沙丘日落的介紹</h2>
+        </section>
+        <section class="homestay">
+            <a href="./homestay.html"><img src="./img/民宿日落導覽圖.jpg" alt="民宿日落景色" data-aos="zoom-in-down"></a>
+            <h2>關於民宿日落的介紹</h2>
+        </section>
+        <section class="sea">
+            <a href="./sea.html"><img src="./img/海邊導覽圖.jpg" alt="海邊的日落" data-aos="zoom-in-down"></a>
+            <h2>關於海邊日落的介紹</h2>
+        </section>
+        <section class="wetland">
+            <a href="./wetland.html"><img src="./img/濕地日落導覽圖.jpg" alt="濕地的日落" data-aos="zoom-in-down"></a>
+            <h2>關於濕地日落的介紹</h2>
+        </section>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

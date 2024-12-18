@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>關於33的關於我</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e5d6fd;
+            color: #333;
+        }
+
+        header {
+            background-color: #e5d6fd;
+            text-align: left;
+            display: flex;
+            justify-content: center;
+            height: 130px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #e5d6fd;
+            padding: 40px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2rem;
+            padding: 5px 10px;
+            border-style: double;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #bd93f3;
+            color: #fff;
+        }
+
+        .fixed-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        main {
+            padding: 40px;
+            margin-top: 150px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background-color: #ececec;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 20px;
+            max-height: 600px;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .card h2 {
+            margin: 15px 0;
+            font-size: 1.2rem;
+            color: #444;
+        }
+
+        .card button {
+            background-color: #cc8878;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .card button:hover {
+            background-color: #aa6655;
+        }
+
+        .card1 {
+            background-color: #ececec;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .card1 img {
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        section#contact {
+            background-color: #a5adf0;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        #contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #contact input,
+        #contact textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        #contact button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #contact button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="fixed-header">
+        <nav>
+            <ul>
+                <li><a href="./index.html">首頁</a></li>
+                <li><a href="./detail.html">景點詳細介紹</a></li>
+                <li><a href="./33me.html">關於33</a></li>
+                <li><a href="./10.html">關於10</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="grid-container">
+            <div class="card">
+                <img src="./img/33個人照1.JPG" alt="關於我" height="400px" width="250px">
+                <h2>姓名：呂佩衫</h2>
+                <h2>性別：女</h2>
+                <h2>就讀：<a href="https://www.aeust.edu.tw/">亞東科技大學</a></h2>
+                <h2>興趣：聽音樂、看戀綜</h2>
+                <h2>專長：羽球、文書</h2>
+            </div>
+            <div class="card">
+                <h1>我的履歷</h1>
+                <br>
+
+                <h2>學歷</h2>
+                <h4><a href="https://www.edu099.com/organization/5875-taoyuanshih-bade-chyu-da-an-guosiao">大安國小</a></h4>
+                <h4><a href="https://www.tcjhs.tyc.edu.tw/">大成國中</a></h4>
+                <h4><a href="https://www.ykvs.ntpc.edu.tw/">鶯歌工商</a></h4>
+                <h4><a href="https://www.aeust.edu.tw/">亞東科大</a></h4>
+                <br><br>
+                <h1>社團經歷</h1>
+                <h4>資管系學會文書</h4>
+                <h4>學生會執行秘書</h4>
+            </div>
+            <div class="card1">
+                <h1>作品集</h1>
+                <h3><a href="./1218/33/20241023/index.html">滾動視差</a></h3>
+                <img src="./img/20241023.png" alt="">
+                <h3><a href="./1218/33/20241030/animation03.html">動畫</a></h3>
+                <img src="./img/20241030動畫.png" alt="">
+                <h3><a href="./1218/33/20241030/AOS.html">AOS</a></h3>
+                <img src="./img/20241030AOS.png" alt="">
+                <h3><a href="./1218/33/20241113/homework.html">響應式網頁</a></h3>
+                <img src="./img/20241113.png" alt="">
+                <h3><a href="./1218/33/20241120/containers.html">Bootstrap 5 Containers</a></h3>
+                <img src="./img/20241120.png" alt="">
+            </div>
+        </section>
+        <section id="contact">
+            <h2>聯絡我</h2>
+            <form action="submit-form.php" method="post">
+                <input type="email" name="email" placeholder="您的電子郵件" required>
+                <textarea name="message" placeholder="您的訊息" required></textarea>
+                <button type="submit">發送訊息</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

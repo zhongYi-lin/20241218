@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>海邊的日落</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe8c5;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffe8c5;
+            text-align: left;
+            display: flex;
+            justify-content: center;
+            height: 130px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #ffe8c5;
+            padding: 40px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2rem;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #ebbe7c;
+            color: #fff;
+        }
+
+        .fixed-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        main {
+            padding: 40px;
+            margin-top: 150px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background-color: #ececec;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            max-height: 200px;
+            object-fit: cover;
+        }
+
+        .card h2 {
+            margin: 15px 0;
+            font-size: 1.2rem;
+            color: #444;
+        }
+
+        .card button {
+            background-color: #cc8878;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .card button:hover {
+            background-color: #aa6655;
+        }
+ 
+    </style>
+</head>
+
+<body>
+    <header class="fixed-header">
+        <a href="./index.html"><img src="./img/浪花日暮-removebg-preview.png" alt="" height="150px"
+                width="150px"></a>
+        <nav>
+            <ul>
+                <li><a href="./index.html">首頁</a></li>
+                <li><a href="./detail.html">景點詳細介紹</a></li>
+                <li><a href="./33me.html">關於33</a></li>
+                <li><a href="./10.html">關於10</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main></main>
+    <section class="grid-container">
+        <div class="card">
+            <img src="./img/竹圍漁港.jpg" alt="竹圍漁港">
+            <h2>竹圍漁港</h2>
+            <p>竹圍漁港是北桃園具休閒功能的觀光漁港，美麗的景色也吸引偶像劇「偷心大聖PS男」來此取景。竹圍漁港的北邊入口，建有一座彩虹橋，採用紐爾遜鋼拱橋建造，是竹圍漁港的一大地標，入夜後更顯浪漫。南邊竹圍漁港的漁會辦公大樓，建有360度景觀旋轉餐廳，緊鄰沙灘，遊客可一邊吃美食一邊欣賞漁港風情與夕陽美景。
+            </p>
+            <a
+                href="https://www.google.com/maps/place/%E7%AB%B9%E5%9C%8D%E6%BC%81%E6%B8%AF/@25.117158,121.2419027,17z/data=!3m1!4b1!4m6!3m5!1s0x34429fac00000001:0x353c4ce9776cf8ed!8m2!3d25.117158!4d121.2444776!16s%2Fg%2F155pz4gb?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D"><button>想去嗎
+                    Let’s go！！</button></a>
+        </div>
+        <div class="card">
+            <img src="./img/屏東「關山夕照」.jpg" alt="屏東「關山夕照」">
+            <h2>屏東「關山夕照」</h2>
+            <p>關山夕照為CNN評選的世界十二大夕陽美景之一，關山由於地勢高，是墾丁國家公園內賞夕陽及遠眺恆春各區的最佳地點，向北可俯瞰大平頂傾斜台地、群礁海岸、漁村等風光，往東可鳥瞰恆春縱谷平原、龍鑾潭，南方可見貓鼻頭至鵝鑾鼻一覽無遺的海岸線，往西則面向台灣海峽，是欣賞絕佳落日美景的方向。
+            </p>
+            <a
+                href="https://www.google.com/maps/place/%E9%97%9C%E5%B1%B1%E5%A4%95%E7%85%A7%E8%A7%80%E6%99%AF%E5%9C%92%E5%8D%80/@21.9663854,120.7161116,17z/data=!3m1!4b1!4m6!3m5!1s0x3471b07bf1d0eee9:0xbcfa3b61708829ed!8m2!3d21.9663854!4d120.7186865!16s%2Fg%2F11ggjx63w2?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D "><button>想去嗎
+                    Let’s go！！</button></a>
+        </div>
+        <div class="card">
+            <img src="./img/海邊導覽圖.jpg" alt="苗栗「落日大道」">
+            <h2>若茵民宿 – Rollin</h2>
+            <p>最美夕陽公路「台61線苗栗縣通霄鎮新埔聯絡道」，每逢黃昏時段可見海平面上的懸日美景，被譽為「日落大道」，更曾經獲得交通部公路總局「台灣最美十大景觀公路」票選第1名，在大道上透過取景角度的改變，可以拍到夕陽於公路中央落下的美圖。
+            </p>
+            <a
+                href="https://www.google.com/maps/place/%E9%80%9A%E9%9C%84%E6%97%A5%E8%90%BD%E5%A4%A7%E9%81%93%E8%A7%80%E6%99%AF%E5%8F%B0/@24.5425769,120.6992826,17z/data=!3m1!4b1!4m6!3m5!1s0x3469a767b0dddaa3:0x3b61869e074908c9!8m2!3d24.5425769!4d120.7018575!16s%2Fg%2F11t6xhxfzw?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D "><button>想去嗎
+                    Let’s go！！</button></a>
+        </div>
+    </section>
+    </main>
+</body>
+
+</html>

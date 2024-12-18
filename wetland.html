@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>濕地的日落</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe8c5;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffe8c5;
+            text-align: left;
+            display: flex;
+            justify-content: center;
+            height: 130px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #ffe8c5;
+            padding: 40px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2rem;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #ebbe7c;
+            color: #fff;
+        }
+
+        .fixed-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px;
+            text-align: center;
+            z-index: 1000;
+        }
+        
+        main {
+            padding: 40px;
+            margin-top: 150px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background-color: #ececec;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            max-height: 200px;
+            object-fit: cover;
+        }
+
+        .card h2 {
+            margin: 15px 0;
+            font-size: 1.2rem;
+            color: #444;
+        }
+
+        .card button {
+            background-color: #cc8878;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .card button:hover {
+            background-color: #aa6655;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="fixed-header">
+        <a href="./index.html"><img src="./img/浪花日暮-removebg-preview.png" alt="" height="150px" width="150px"></a>
+        <nav>
+            <ul>
+                <li><a href="./index.html">首頁</a></li>
+                <li><a href="./detail.html">景點詳細介紹</a></li>
+                <li><a href="./33me.html">關於33</a></li>
+                <li><a href="./10.html">關於10</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="grid-container">
+            <div class="card">
+                <img src="./img/桃園-觀音草漯沙丘.jpg" alt="桃園-觀音草漯沙丘">
+                <h2>新竹-香山濕地</h2>
+                <p>近幾年新竹相當熱門的網美景點「香山沙丘」，除了是國家級的重要濕地，也是濱海野生動物保護區，進入前一定要記得申請，不然可能會被罰 25 萬的罰鍰。香山溼地擁有大面積的高沙丘，也有不少比人還矮小的沙丘，相對於其他沙丘景點，這裡的路面平坦好走，趁著秋高氣爽來散步、賞夕陽也是不錯的選擇。</p>
+                <a href="https://www.google.com/maps/place/%E9%A6%99%E5%B1%B1%E6%BF%95%E5%9C%B0/@24.7819348,120.8980162,15z/data=!4m10!1m2!2m1!1z5paw56u5LemmmeWxseaymeS4mA!3m6!1s0x34684ac5306157e3:0xee8d34fd9c880d6!8m2!3d24.7819348!4d120.9144957!15sChPmlrDnq7kt6aaZ5bGx5rKZ5LiYWhYiFOaWsOeruSDpppnlsbEg5rKZ5LiYkgEPbmF0dXJlX3ByZXNlcnZlmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJSZVdOSGNraG5FQUXgAQD6AQQIQxAi!16s%2Fg%2F155qv2vj?entry=ttu&g_ep=EgoyMDI0MTIwMy4wIKXMDSoASAFQAw%3D%3D"><button>想去嗎 Let’s go！！</button></a>
+            </div>
+            <div class="card">
+                <img src="./img/嶺頂沙丘.jpg" alt="嶺頂沙丘">
+                <h2>高美濕地</h2>
+                <p>台中的高美濕地，被日本雜誌譽為「一生必遊之地」，更在世界七大天空之鏡中榜上有名，那片風車上的夕陽晚霞，其絢麗看完永炙心魂。濕地的泥灘，亦是不少招潮蟹、彈塗魚棲息之處，從指頭間的泥沼洞穴，移目至壯闊的地平線，台灣這天涯美景，留待你來細賞。
+
+                    久仰高美濕地大名，這次來碰到天氣好的timing，更覺感恩。高美濕地是台中海線必玩的浪漫景點，也曾被日本雜誌評選為「一生至少必遊一次的絕景」，彩霞漫天焚燎，其壯麗度果無虛譽。
+                    </p>
+                <a href="https://www.google.com/maps/place/%E9%A6%99%E5%B1%B1%E6%BF%95%E5%9C%B0/@24.7819348,120.8980162,15z/data=!4m10!1m2!2m1!1z5paw56u5LemmmeWxseaymeS4mA!3m6!1s0x34684ac5306157e3:0xee8d34fd9c880d6!8m2!3d24.7819348!4d120.9144957!15sChPmlrDnq7kt6aaZ5bGx5rKZ5LiYWhYiFOaWsOeruSDpppnlsbEg5rKZ5LiYkgEPbmF0dXJlX3ByZXNlcnZlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5LYjNGcU9UWlJSUkFC4AEA-gEECGcQHw!16s%2Fg%2F155qv2vj?entry=ttu&g_ep=EgoyMDI0MTIwMy4wIKXMDSoASAFQAw%3D%3D"><button>想去嗎 Let’s go！！</button></a>
+            </div>
+            <div class="card">
+                <img src="./img/許厝港濕地.jpg" alt="桃園-觀音草漯沙丘">
+                <h2>許厝港濕地</h2>
+                <p>位於桃園大園的許厝港濕地，是北台灣最大的海岸型濕地，由於河流水系發達，成為候鳥過境的重要場所，到這不僅可以賞鳥、觀察生態，傍晚的極美夕陽更是迷人，是桃園必訪的夕陽景點。因為濕地位於海邊，所以需要開車或騎車前往，濕地旁有一處空地可以停車，不過假日傍晚時段滿容易客滿的，建議可以停在河堤旁再走過來，約步行五分鐘就到了。</p>
+                <a href="https://www.google.com/maps/place/%E8%A8%B1%E5%8E%9D%E6%B8%AF%E6%BF%95%E5%9C%B0/@25.0873338,121.1736775,17z/data=!3m1!4b1!4m6!3m5!1s0x34429e063816f8e9:0x623fe9090cd158c5!8m2!3d25.0873338!4d121.1762524!16s%2Fg%2F11g7ywlnd0?entry=ttu&g_ep=EgoyMDI0MTIwMy4wIKXMDSoASAFQAw%3D%3D"><button>想去嗎 Let’s go！！</button></a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
